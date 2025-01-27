@@ -1,4 +1,48 @@
 # Hosting-a-static-website-on-azurestorage-account
+Problem Statement
+Develop a static website that provides users with valuable insights and tools for exploring innovative investment opportunities. The hosting platform should ensure reliability, cost-effectiveness, and secure access while being easy to deploy and scalable for future needs.
+
+Project Goals
+Deploy a user-friendly static website that showcases financial tools and guides, hosted on Azure Storage.
+Optimize the website for accessibility, performance, and security using Azure's built-in features.
+Leverage Azure services to create a scalable and high-availability hosting environment.
+Hosting a Static Website on Azure Storage
+Steps Taken
+
+Website Creation
+
+Designed a static website using HTML, CSS, and JavaScript to deliver content related to financial literacy and market trends.
+Uploading to GitHub
+
+The website files were stored in a public GitHub repository for version control and ease of deployment.
+Azure Storage Setup
+
+Created a new Storage account in Azure and enabled Static Website Hosting through the Azure Portal.
+Uploaded all the site’s files, including HTML, CSS, and JavaScript, to the $web container, dedicated to hosting static content.
+Custom Domain Integration
+
+Configured a custom domain to enhance branding and provide users with a memorable URL.
+Used Azure DNS or a third-party DNS provider to map the domain to the website endpoint with appropriate CNAME or A records.
+Website Testing and Deployment
+
+Ensured the site was fully functional by accessing the default Azure Storage endpoint (e.g., https://<storage_account_name>.z13.web.core.windows.net).
+Validated that all resources, such as images and scripts, loaded correctly.
+Security and Optimization
+
+Enabled HTTPS to ensure secure communication between users and the website.
+Utilized Azure Firewall settings to restrict access as required.
+Integrated Azure CDN to improve global accessibility and reduce latency.
+Azure Services and Tools Utilized
+Azure Storage Account: Used for hosting static files in the $web container.
+Static Website Hosting: Enabled seamless deployment of static content.
+Azure DNS: Simplified domain name management.
+Azure CDN: Enhanced the performance and global availability of the website.
+GitHub: Hosted and managed the project’s source code.
+Azure Portal: Provided an intuitive interface to configure and manage resources.
+Live Website and Resources
+Website URL: Accessible through a custom domain or the default Azure endpoint.
+Conclusion
+This project highlights the process of deploying a secure, scalable, and user-friendly static website using Azure Storage. The setup minimizes costs while ensuring high availability and performance, making it an ideal solution for hosting informative or promotional websites.
 <!DOCTYPE html>
 <html lang="en">
 <head>
